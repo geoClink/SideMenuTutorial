@@ -50,5 +50,14 @@ Contributing
 License
 This project is provided under the MIT License. See LICENSE (not included) or add one if desired.
 
+Credits
+
+This project was created as a follow-along tutorial based on a YouTube video by AppStuff:
+
+- Video: https://www.youtube.com/watch?v=5T6ft6B5ZtA
+- Channel: AppStuff
+
+Credit: This repository contains code produced while following the above tutorial for learning purposes. Thanks to AppStuff for the tutorial content.
+
 Notes
 - This README was generated to summarize the existing demo code structure and usage. If you want, I can also add a LICENSE file, example screenshots, or CI config to automatically run static checks.
