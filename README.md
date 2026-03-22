@@ -12,7 +12,6 @@ This project was created as a follow-along tutorial assignment to learn the basi
     width="320" 
     style="border-radius: 45px; border: 8px solid #222; display: block; margin-bottom: 10px;"
   />
-  <p><sub><i>iPhone 17 Pro Simulation</i></sub></p>
 </div>
 
 
