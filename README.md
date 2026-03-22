@@ -6,6 +6,11 @@ Background
 
 This project was created as a follow-along tutorial assignment to learn the basics of SwiftUI and how to build a simple side menu component. It served as a hands-on exercise to practice views, bindings, animations, and basic app structure.
 
+Screenshot
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-22 at 13 30 08" src="https://github.com/user-attachments/assets/e3940b88-a82b-4d0f-8ee1-9d20f1051869" />
+
+
+
 Features
 - SwiftUI-based: no UIKit required.
 - Slide-out side menu with overlay tap-to-dismiss.
@@ -59,5 +64,3 @@ This project was created as a follow-along tutorial based on a YouTube video by 
 
 Credit: This repository contains code produced while following the above tutorial for learning purposes. Thanks to AppStuff for the tutorial content.
 
-Notes
-- This README was generated to summarize the existing demo code structure and usage. If you want, I can also add a LICENSE file, example screenshots, or CI config to automatically run static checks.
