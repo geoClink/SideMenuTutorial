@@ -6,9 +6,15 @@ Background
 
 This project was created as a follow-along tutorial assignment to learn the basics of SwiftUI and how to build a simple side menu component. It served as a hands-on exercise to practice views, bindings, animations, and basic app structure.
 
-Screenshot
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-22 at 13 30 08" src="https://github.com/user-attachments/assets/e3940b88-a82b-4d0f-8ee1-9d20f1051869" />
-
+<div align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/e3940b88-a82b-4d0f-8ee1-9d20f1051869" 
+    width="320" 
+    style="border-radius: 45px; border: 8px solid #222; display: block; margin-bottom: 10px;"
+    alt="iPhone 17 Pro Screenshot"
+  />
+  <p><sub><i>iPhone 17 Pro Simulation</i></sub></p>
+</div>
 
 
 Features
