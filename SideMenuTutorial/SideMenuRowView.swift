@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct SideMenuRowView: View {
+    let option: SideMenuOption
+    var isSelected: Bool = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 12) {
+            Image(systemName: option.systemImageName)
+                .frame(width: 24, height: 24)
+                .foregroundColor(isSelected ? .white : .primary)
+
+            Text(option.title)
+                .foregroundColor(isSelected ? .white : .primary)
+
+            Spacer()
+        }
+        .padding(.vertical, 12)
+        .padding(.horizontal, 16)
+        .background(isSelected ? Color.accentColor.cornerRadius(8) : Color.clear)
     }
 }
 
 #Preview {
-    SideMenuRowView()
+    VStack(spacing: 8) {
+        SideMenuRowView(option: .home, isSelected: true)
+        SideMenuRowView(option: .favorites, isSelected: false)
+    }
 }
