@@ -2,6 +2,10 @@
 
 A small SwiftUI demo showing a slide-out side menu (drawer) integrated into a simple app shell. The project demonstrates how to build a reusable side menu with header, menu rows, and simple navigation via a selected tab index.
 
+Background
+
+This project was created as a follow-along tutorial assignment to learn the basics of SwiftUI and how to build a simple side menu component. It served as a hands-on exercise to practice views, bindings, animations, and basic app structure.
+
 Features
 - SwiftUI-based: no UIKit required.
 - Slide-out side menu with overlay tap-to-dismiss.
