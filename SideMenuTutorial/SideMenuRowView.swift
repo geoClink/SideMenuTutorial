@@ -24,13 +24,7 @@ struct SideMenuRowView: View {
         }
         .padding(.vertical, 12)
         .padding(.horizontal, 16)
-        .background(isSelected ? Color.accentColor.cornerRadius(8) : Color.clear)
-    }
-}
-
-#Preview {
-    VStack(spacing: 8) {
-        SideMenuRowView(option: .home, isSelected: true)
-        SideMenuRowView(option: .favorites, isSelected: false)
+        .background(isSelected ? Color.accentColor : Color.clear)
+        .cornerRadius(8)
     }
 }

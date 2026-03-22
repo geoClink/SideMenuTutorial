@@ -53,7 +53,5 @@ struct SideMenuView: View {
 }
 
 #Preview {
-    StatefulPreviewWrapper((true, SideMenuOption.home)) { isShowing, selected in
-        SideMenuView(isShowing: isShowing, selected: selected)
-    }
+    SideMenuView(isShowing: .constant(true), selected: .constant(.home))
 }
